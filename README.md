@@ -11,3 +11,17 @@ To start the slide show:
 Edit the [slides.md](./slides.md) to see the changes.
 
 Learn more about Slidev on [documentations](https://sli.dev/).
+
+## Assets
+
+Place your assets in the `public` directory:
+
+- Images: `public/images/`
+- Icons: `public/icons/`
+- Other assets: `public/assets/`
+
+Reference assets in your slides using absolute paths:
+
+```markdown
+![Logo](/images/logo.png)
+```
